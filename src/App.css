@@ -32,7 +32,60 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.content1-div {
+  background-image: url('https://images.pexels.com/photos/12719099/pexels-photo-12719099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content2-div {
+  background-image: url('https://images.pexels.com/photos/7759834/pexels-photo-7759834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content3-div {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content4-div {
+  background-image: url('https://images.pexels.com/photos/5688743/pexels-photo-5688743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-div:hover {
+  background-image:
+    linear-gradient(to right,
+      rgba(126, 213, 111, 0.801), hsla(160, 64%, 43%, 0.801)),
+    url('');
+}
+
+.image-cover {
+  height: 260px;
+}
+
+/*
+  -remove the classes below if you have the 'group-hover'property added in your tailwind config file
+  -also remove the class from the html template
+  */
+.content-div:hover .fd-cl {
+  opacity: 0.25;
+}
+
+.content-div:hover .fd-sh {
+  opacity: 1;
 }
